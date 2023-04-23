@@ -14,15 +14,15 @@ let numDif = name1.length - name2.length;
 console.log("Didier Drogba name is longer than Thiery Herny by", numDif, "letter." );
 
 // Medium
-// let userAnswer = prompt("Whats Up?");
+let userAnswer = prompt("Whats Up?");
 
-// if (userAnswer === userAnswer.toUpperCase()) {
-//     console.log("Why are you yelling?");
-// }   else if (userAnswer === userAnswer.toLowerCase()){
-//     console.log("What you say?");
-// }   else {
-//     console.log("Huh?");
-// }
+if (userAnswer === userAnswer.toUpperCase()) {
+    console.log("Why are you yelling?");
+}   else if (userAnswer === userAnswer.toLowerCase()){
+    console.log("What you say?");
+}   else {
+    console.log("Huh?");
+}
 
 // Hard
 let x = 20;
@@ -35,25 +35,25 @@ let result4 = y / x;
 console.log(resul1, result2, result3, result4);
 
 // Very Hard
-// alert("I can solve anything!!!")
-// let num1 = parseInt(prompt("Pick a Number"));
-// let asmd = prompt("+ - * or /");
-// let num2 = parseInt(prompt("Another Number"));
+alert("I can solve anything!!!")
+let num1 = parseInt(prompt("Pick a Number"));
+let asmd = prompt("+ - * or /");
+let num2 = parseInt(prompt("Another Number"));
 
-// let x1 = num1;
-// let y1 = num2;
+let x1 = num1;
+let y1 = num2;
 
-// let add = x1 + y1;
-// let subtract = x1 - y1;
-// let multiply = x1 * y1;
-// let devide = x1 / y1;
+let add = x1 + y1;
+let subtract = x1 - y1;
+let multiply = x1 * y1;
+let devide = x1 / y1;
 
-// if (asmd === "+"){
-//     document.write(num1 + "" + asmd + "" + num2 + "=" + add);
-// } else if (asmd === "-"){
-//     document.write(num1 + "" + asmd + "" + num2 + "=" + subtract);
-// }else if (asmd === "*"){
-//     document.write(num1 + "" + asmd + "" + num2 + "=" + multiply);
-// }else if (asmd === "/"){
-//     document.write(num1 + "" + asmd + "" + num2 + "=" + devide);
-// }
+if (asmd === "+"){
+    document.write(num1 + "" + asmd + "" + num2 + "=" + add);
+} else if (asmd === "-"){
+    document.write(num1 + "" + asmd + "" + num2 + "=" + subtract);
+}else if (asmd === "*"){
+    document.write(num1 + "" + asmd + "" + num2 + "=" + multiply);
+}else if (asmd === "/"){
+    document.write(num1 + "" + asmd + "" + num2 + "=" + devide);
+}
